@@ -1,12 +1,13 @@
-- sh -
+
 1. java JDK 다운
   명령어 입력.
-  wgt https://download.oracle.com/java/17/archive/jdk-17.0.7_linux-aarch64_bin.tar.gz
-
-2. 압축 풀기.
+```sh
+  wget https://download.oracle.com/java/17/archive/jdk-17.0.7_linux-aarch64_bin.tar.gz
+```
+3. 압축 풀기.
   tar xvfz jdk-17.0.7_linux-aarch64_bin.tar.gz
 
-3. poscodx 소프트웨어 설치 디렉토리 만들기.
+4. poscodx 소프트웨어 설치 디렉토리 만들기.
   # mkdir /user/local/poscodx2023
 
 4. 설치 
