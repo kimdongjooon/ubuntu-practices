@@ -53,8 +53,7 @@ ln -s /usr/local/poscodx2023/git/bin/git /usr/bin/git
 ```sh
 # mkdir my-workspace
 # cd my-workspace
-# mkdir centos-practices
-# cd centos-practices
+# git clone https://github.com/kimdongjooon/java-study.git
 # git init
 # git add -A
 # git commit -m "first commit"
