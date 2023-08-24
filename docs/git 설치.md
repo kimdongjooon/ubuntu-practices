@@ -24,7 +24,7 @@ git 2.9.5 설치
 ```
 5. configure
 ```sh
-  # ./configure --prefix=/usr/local/douzone/git
+  # ./configure --prefix=/usr/local/poscodx2023/git
 ```
 6. 빌드
 ```sh
@@ -37,15 +37,22 @@ git 2.9.5 설치
 8. 설정(/etc/profile)
 ```sh
 # git
-PATH=$PATH:/usr/local/douzone/git/bin
+export PATH=$PATH:/usr/local/poscodx2023/git/bin
 ```
-9. git 환경 설정
+8-1/
 ```sh
-# git config --global user.name "douzone-busan-bitacademy"
-# git config --global user.email "douzone.busan.bitacademy@gmail.com"
+mv /usr/bin/git /usr/bin/git_old
+ln -s /usr/local/poscodx2023/git/bin/git /usr/bin/git
+```
+
+9. git 확인
+```sh
+# git --version
 ```
 10. git 사용하기
 ```sh
+# mkdir my-workspace
+# cd my-workspace
 # mkdir centos-practices
 # cd centos-practices
 # git init
